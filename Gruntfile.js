@@ -12,7 +12,13 @@ module.exports = function (grunt) {
         less: {
             options: {
                 paths: ['less'],
-                compress: false
+                compress: false,
+                strictMath: true,
+                outputSourceFiles: true,
+                cleancss: true,
+                optimization: 2,
+                sourceMap: true,
+                sourceMapFilename: 'dist/css/mi24-bootstrap.css.map'
             },
             files: {
                 expand: true,
@@ -25,7 +31,7 @@ module.exports = function (grunt) {
         },
         autoprefixer: {
             options: {
-                browsers: ['last 2 versions', 'ie 8', 'ie 9']
+                browsers: ['last 2 versions', 'ie 9']
             },
             app: {
                 src: ['dist/css/*.css', '!dist/css/*.min.css']
