@@ -1,4 +1,4 @@
-# mi24-boostrap
+# mi24-bootstrap
 
 [![Bower version](https://badge.fury.io/bo/mi24-bootstrap.svg)](http://badge.fury.io/bo/mi24-bootstrap)
 [![npm version](https://badge.fury.io/js/mi24-bootstrap.svg)](http://badge.fury.io/js/mi24-bootstrap)
