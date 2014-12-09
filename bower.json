@@ -4,6 +4,12 @@
     "version": "0.0.1",
     "homepage": "https://github.com/dasrick/mi24-bootstrap",
     "main": "dist/css/mi24-bootstrap.css",
+    "keywords": [
+        "mi24",
+        "css",
+        "less",
+        "bootstrap"
+    ],
     "ignore": [
         "/.*"
     ]
