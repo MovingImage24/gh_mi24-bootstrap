@@ -1,3 +1,13 @@
+v0.0.2:
+  date: 2014-12-15
+  changes:
+    - split into theme and bootstrap (based on latest original version of tb)
+
+v0.0.1:
+  date: 2014-12-09
+  changes:
+    - basic stuff
+
 v0.0.0:
   date: 2014-12-08
   changes:
