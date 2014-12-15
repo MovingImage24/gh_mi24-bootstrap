@@ -8,3 +8,20 @@
 
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
+
+This package include the latest version of twitter bootstrap ... currently version 3.3.1
+
+## how to use
+
+### Installation
+
+via npm or bower ... [please more details]
+
+
+### Implementation
+
+First append the gruntfile to copy both minified files into distribution folder (in our example media/css).
+Now add these lines in head part of html page.
+
+    <link rel="stylesheet" href="media/css/mi24-bootstrap.min.css"/>
+    <link rel="stylesheet" href="media/css/mi24-theme.min.css"/>

@@ -10,21 +10,58 @@ module.exports = function (grunt) {
             }
         },
         less: {
-            options: {
-                paths: ['less'],
-                compress: false,
-                strictMath: true,
-                outputSourceFiles: true,
-                cleancss: true,
-                optimization: 2,
-                sourceMap: true,
-                sourceMapFilename: 'dist/css/mi24-bootstrap.css.map'
-            },
-            files: {
+            //options: {
+            //    paths: ['less'],
+            //    compress: false,
+            //    strictMath: true,
+            //    outputSourceFiles: true,
+            //    cleancss: true,
+            //    optimization: 2
+            //    //sourceMap: true,
+            //    //sourceMapFilename: 'dist/css/mi24-bootstrap.css.map'
+            //},
+            //files: {
+            //    expand: true,
+            //    flatten: false,
+            //    cwd: 'less/',
+            //    src: ['**/*.less', '!**/_*.less'],
+            //    dest: 'dist/css/',
+            //    ext: '.css'
+            //}
+
+            compileCore: {
+                options: {
+                    paths: ['less'],
+                    strictMath: true,
+                    sourceMap: true,
+                    outputSourceFiles: true,
+                    cleancss: true,
+                    compress: false,
+                    optimization: 2,
+                    sourceMapFilename: 'dist/css/mi24-bootstrap.css.map'
+                },
                 expand: true,
                 flatten: false,
                 cwd: 'less/',
-                src: ['**/*.less', '!**/_*.less'],
+                src: 'mi24-bootstrap.less',
+                dest: 'dist/css/',
+                ext: '.css'
+            },
+            compileTheme: {
+                options: {
+                    paths: ['less'],
+                    strictMath: true,
+                    sourceMap: true,
+                    outputSourceFiles: true,
+                    cleancss: true,
+                    compress: false,
+                    optimization: 2,
+                    sourceMapFilename: 'dist/css/mi24-theme.css.map'
+                },
+                expand: true,
+                flatten: false,
+                cwd: 'less/',
+                src: 'mi24-theme.less',
                 dest: 'dist/css/',
                 ext: '.css'
             }
