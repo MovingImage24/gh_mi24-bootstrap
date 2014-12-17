@@ -1,0 +1,111 @@
+// =====================================================================================================================
+// Layout
+// =====================================================================================================================
+// !!! Only define height and width ... otherwise you will notice that broken fingers let you hack a liitle bit slower
+// ---------------------------------------------------------------------------------------------------------------------
+html, body {
+  height: 100%;
+}
+
+header {
+  position: relative;
+  height: @header-height;
+  border-bottom-width: @header-border-bottom-width;
+  > aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+}
+
+main {
+  box-sizing: border-box;
+  > aside {
+    position: absolute;
+    top: @header-height;
+    bottom: @footer-height;
+    overflow: hidden;
+    > section {
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      overflow: hidden;
+      &.section-head {
+        height: @section-head-height;
+        top: 0;
+        border-bottom-width: @section-head-border-bottom-width;
+      }
+      &.section-body {
+        top: @section-head-height;
+        bottom: @section-foot-height;
+        overflow: auto;
+      }
+      &.section-foot {
+        height: @section-foot-height;
+        bottom: 0;
+        border-top-width: @section-foot-border-top-width;
+      }
+    }
+//    &.sidebar {
+//      > section {
+//        &.section-head {}
+//        &.section-body {}
+//        &.section-foot {}
+//      }
+//    }
+//    &.mainview {
+//      > section {
+//        &.section-head {}
+//        &.section-body {}
+//        &.section-foot {}
+//      }
+//    }
+//    &.detailview {
+////      border-left-width: @col-detailview-border-left-width;
+//      > section {
+//        &.section-head {}
+//        &.section-body {}
+//        &.section-foot {}
+//      }
+//    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// mixins
+// ---------------------------------------------------------------------------------------------------------------------
+.getAsideWidth(@col-left-width, @col-right-width) {
+  header,
+  main {
+    > aside {
+      &:nth-child(1) {
+        width: @col-left-width;
+        left: 0;
+      }
+      &:nth-child(2) {
+        left: @col-left-width;
+        right: @col-right-width;
+      }
+      &:nth-child(3) {
+        width: @col-right-width;
+        right: 0;
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// media queries
+// ---------------------------------------------------------------------------------------------------------------------
+@media (min-width: 768px) {
+  .getAsideWidth(@col-left-sm-witdh, @col-right-sm-witdh);
+}
+
+@media (min-width: 992px) {
+  .getAsideWidth(@col-left-md-witdh, @col-right-md-witdh);
+}
+
+@media (min-width: 1200px) {
+  .getAsideWidth(@col-left-lg-witdh, @col-right-lg-witdh);
+}
