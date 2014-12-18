@@ -26,42 +26,37 @@ main {
     top: @header-height;
     bottom: @footer-height;
     overflow: hidden;
+    .getSectionHeights(@section-head-height, @section-foot-height);
     > section {
       margin: 0;
       position: absolute;
       width: 100%;
       overflow: hidden;
       &.section-head {
-        height: @section-head-height;
-        top: 0;
         border-bottom-width: @section-head-border-bottom-width;
       }
       &.section-body {
-        top: @section-head-height;
-        bottom: @section-foot-height;
         overflow: auto;
       }
       &.section-foot {
-        height: @section-foot-height;
-        bottom: 0;
         border-top-width: @section-foot-border-top-width;
       }
     }
-//    &.sidebar {
+//    &.col-left {
 //      > section {
 //        &.section-head {}
 //        &.section-body {}
 //        &.section-foot {}
 //      }
 //    }
-//    &.mainview {
+//    &.col-main {
 //      > section {
 //        &.section-head {}
 //        &.section-body {}
 //        &.section-foot {}
 //      }
 //    }
-//    &.detailview {
+//    &.col-right {
 ////      border-left-width: @col-detailview-border-left-width;
 //      > section {
 //        &.section-head {}
@@ -79,19 +74,46 @@ main {
   header,
   main {
     > aside {
-      &:nth-child(1) {
+      &.col-left {
         width: @col-left-width;
         left: 0;
       }
-      &:nth-child(2) {
+      &.col-main {
         left: @col-left-width;
         right: @col-right-width;
       }
-      &:nth-child(3) {
+      &.col-right {
         width: @col-right-width;
         right: 0;
       }
+      &.col-main-right {
+        left: @col-left-width;
+        right: 0;
+      }
+      &.col-main-left {
+        left: 0;
+        right: @col-right-width;
+      }
+      &.col-main-full {
+        left: 0;
+        right: 0;
+      }
     }
+  }
+}
+
+.getSectionHeights(@head-height, @foot-height) {
+  section.section-head {
+    height: @head-height;
+    top: 0;
+  }
+  section.section-body {
+    top: @head-height;
+    bottom: @foot-height;
+  }
+  section.section-foot {
+    height: @foot-height;
+    bottom: 0;
   }
 }
 

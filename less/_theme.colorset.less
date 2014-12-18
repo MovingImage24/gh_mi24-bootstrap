@@ -20,10 +20,20 @@
   .getColorSetLists(cs3);
 }
 
-//header {
-//  border-bottom-color: @cs3-border-horizontal-color;
-//}
-//
+.getColorSetAsides();
+
+header {
+  &.cs-1 {
+    .getColorSetHeader(cs1);
+  }
+  &.cs-2 {
+    .getColorSetHeader(cs2);
+  }
+  &.cs-3 {
+    .getColorSetHeader(cs3);
+  }
+}
+
 //main {
 //  > aside {
 //    &.sidebar {}
@@ -37,18 +47,16 @@
 .defineColorSetVars(@colorSetString) {
   @colorSet-color: '@{colorSetString}-color';
   @colorSet-bg: '@{colorSetString}-bg';
-
   @colorSet-link-color: '@{colorSetString}-link-color';
   @colorSet-link-hover-color: '@{colorSetString}-link-hover-color';
   @colorSet-link-active-color: '@{colorSetString}-link-active-color';
   @colorSet-heading-link-color: '@{colorSetString}-heading-link-color';
   @colorSet-heading-link-hover-color: '@{colorSetString}-heading-link-hover-color';
   @colorSet-heading-link-active-color: '@{colorSetString}-heading-link-active-color';
-
   @colorSet-section-head-bg: '@{colorSetString}-section-head-bg';
   @colorSet-section-foot-bg: '@{colorSetString}-section-foot-bg';
-
   @colorSet-border-horizontal-color: '@{colorSetString}-border-horizontal-color';
+  @colorSet-border-vertical-color: '@{colorSetString}-border-vertical-color';
 }
 
 .getColorSetDefaults(@colorSetString) {
@@ -58,13 +66,40 @@
   .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color);
 }
 
+.getColorSetAsides() {
+  .cs-1 aside, aside.cs-1 {
+    &.col-left {
+      border-right: @col-left-border-right-width solid @cs1-border-vertical-color;
+    }
+    &.col-right {
+      border-left: @col-right-border-left-width solid @cs1-border-vertical-color;
+    }
+  }
+  .cs-2 aside, aside.cs-2 {
+    &.col-left {
+      border-right: @col-left-border-right-width solid @cs2-border-vertical-color;
+    }
+    &.col-right {
+      border-left: @col-right-border-left-width solid @cs2-border-vertical-color;
+    }
+  }
+  .cs-3 aside, aside.cs-3 {
+    &.col-left {
+      border-right: @col-left-border-right-width solid @cs3-border-vertical-color;
+    }
+    &.col-right {
+      border-left: @col-right-border-left-width solid @cs3-border-vertical-color;
+    }
+  }
+}
+
 .getColorSetSections(@colorSetString) {
   .defineColorSetVars(@colorSetString);
-  > section.section-head {
+  section.section-head {
     background-color: @@colorSet-section-head-bg;
     border-bottom-color: @@colorSet-border-horizontal-color;
   }
-  > section.section-foot {
+  section.section-foot {
     background-color: @@colorSet-section-foot-bg;
     border-top-color: @@colorSet-border-horizontal-color;
   }
@@ -90,4 +125,9 @@
       }
     }
   }
+}
+
+.getColorSetHeader(@colorSetString) {
+  .defineColorSetVars(@colorSetString);
+  border-bottom-color: @@colorSet-border-horizontal-color;
 }
