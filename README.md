@@ -4,6 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/mi24-bootstrap.svg)](https://www.npmjs.com/package/mi24-bootstrap)
 [![Build Status](https://img.shields.io/travis/dasrick/mi24-bootstrap.svg)](https://travis-ci.org/dasrick/mi24-bootstrap)
 [![devDependency Status](https://david-dm.org/dasrick/mi24-bootstrap/dev-status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=devDependencies)
+[![code quality Status](https://img.shields.io/codacy/f018037b3b5e4122b07a3221e5579e97.svg)](https://www.codacy.com/public/dasrick/mi24-bootstrap)
 
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
@@ -32,7 +33,7 @@ Just start with installation of required dev tool.
 After that just run `grunt` ...
 
     node_modules/.bin/grunt
-    
+
 ## thx
 
 * to [shields.io](http://shields.io/) for most of the badges ...
