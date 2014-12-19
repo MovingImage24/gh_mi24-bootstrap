@@ -8,18 +8,21 @@
   .getColorSetDefaults(cs1);
   .getColorSetSections(cs1);
   .getColorSetLists(cs1);
+  .getColorSetButtonMi24(cs1)
 }
 
 .cs-2 {
   .getColorSetDefaults(cs2);
   .getColorSetSections(cs2);
   .getColorSetLists(cs2);
+  .getColorSetButtonMi24(cs2)
 }
 
 .cs-3 {
   .getColorSetDefaults(cs3);
   .getColorSetSections(cs3);
   .getColorSetLists(cs3);
+  .getColorSetButtonMi24(cs3)
 }
 
 .getColorSetAsides();
@@ -132,4 +135,29 @@ header {
 .getColorSetHeader(@colorSetString) {
   .defineColorSetVars(@colorSetString);
   border-bottom-color: @@colorSet-border-horizontal-color;
+}
+
+
+.getColorSetButtonMi24(@colorSetString) {
+  .defineColorSetVars(@colorSetString);
+//  border-bottom-color: @@colorSet-border-horizontal-color;
+
+  .btn-mi24.btn-default {
+    .button-variant-mi24(@btn-default-color; @btn-default-bg; @btn-default-border; @@colorSet-color);
+  }
+  .btn-mi24.btn-primary {
+    .button-variant-mi24(@btn-primary-color; @btn-primary-bg; @btn-primary-border; @@colorSet-color);
+  }
+  .btn-mi24.btn-warning {
+    .button-variant-mi24(@btn-warning-color; @btn-warning-bg; @btn-warning-border; @@colorSet-color);
+  }
+  .btn-mi24.btn-danger {
+    .button-variant-mi24(@btn-danger-color; @btn-danger-bg; @btn-danger-border; @@colorSet-color);
+  }
+  .btn-mi24.btn-success {
+    .button-variant-mi24(@btn-success-color; @btn-success-bg; @btn-success-border; @@colorSet-color);
+  }
+  .btn-mi24.btn-info {
+    .button-variant-mi24(@btn-info-color; @btn-info-bg; @btn-info-border; @@colorSet-color);
+  }
 }
