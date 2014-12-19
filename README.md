@@ -34,6 +34,12 @@ After that just run `grunt` ...
 
     node_modules/.bin/grunt
 
+## Concept Overview
+
+![alt tag](./images/overview.jpg)
+
 ## thx
 
 * to [shields.io](http://shields.io/) for most of the badges ...
+
+
