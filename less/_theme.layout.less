@@ -110,6 +110,12 @@ main {
   section.section-body {
     top: @head-height;
     bottom: @foot-height;
+    &:first-child {
+      top: 0;
+    }
+    &:last-child {
+      bottom: 0;
+    }
   }
   section.section-foot {
     height: @foot-height;
