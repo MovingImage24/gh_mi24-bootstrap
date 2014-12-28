@@ -33,6 +33,12 @@ Just start with installation of required dev tool.
 After that just run `grunt` ...
 
     node_modules/.bin/grunt
+    
+# Tagging
+
+Here is a good gist that explain all nessessary step for tagging the builds (git/npm)
+
+* [Tagging](https://gist.github.com/coolaj86/1318304#beta-and-release-versions)
 
 ## Concept Overview
 
