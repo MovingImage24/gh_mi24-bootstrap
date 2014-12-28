@@ -10,25 +10,6 @@ module.exports = function (grunt) {
             }
         },
         less: {
-            //options: {
-            //    paths: ['less'],
-            //    compress: false,
-            //    strictMath: true,
-            //    outputSourceFiles: true,
-            //    cleancss: true,
-            //    optimization: 2
-            //    //sourceMap: true,
-            //    //sourceMapFilename: 'dist/css/mi24-bootstrap.css.map'
-            //},
-            //files: {
-            //    expand: true,
-            //    flatten: false,
-            //    cwd: 'less/',
-            //    src: ['**/*.less', '!**/_*.less'],
-            //    dest: 'dist/css/',
-            //    ext: '.css'
-            //}
-
             compileCore: {
                 options: {
                     paths: ['less'],

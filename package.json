@@ -1,7 +1,7 @@
 {
     "name": "mi24-bootstrap",
     "description": "The basics for usage of twitter bootstrap in ui project of movingimage24.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/dasrick/mi24-bootstrap",
     "author": {
         "name": "MovingIMAGE24",
@@ -19,15 +19,16 @@
         "url": "https://github.com/dasrick/mi24-bootstrap/blob/master/LICENSE"
     },
     "devDependencies": {
+        "better-than-fontawesome": "git+ssh://git@bitbucket.org:movingimage24/betterthanfontawesome.git",
+        "bootstrap": "^3.3.1",
+        "david": "^6.0.1",
         "grunt": "~0.4.5",
-        "grunt-cli": "~0.1.13",
         "grunt-autoprefixer": "~2.0.0",
-        "grunt-contrib-cssmin": "^0.10.0",
-        "grunt-contrib-less": "~0.12.0",
+        "grunt-cli": "~0.1.13",
+        "grunt-contrib-cssmin": "^0.11.0",
+        "grunt-contrib-less": "^1.0.0",
         "grunt-simple-watch": "~0.1.2",
-        "load-grunt-tasks": "^1.0.0",
-        "bootstrap": "^3.3",
-        "better-than-fontawesome": "git+ssh://git@bitbucket.org:movingimage24/betterthanfontawesome.git"
+        "load-grunt-tasks": "^2.0.0"
     },
     "engines": {
         "node": "~0.10.1"

@@ -15,7 +15,7 @@ This package include the latest version of twitter bootstrap ... currently versi
 
 via npm or bower ... [please more details]
 
-    "dasrick/mi24-bootstrap": "~0.0.2"
+    "dasrick/mi24-bootstrap": "~0.0.3"
 
 First append the gruntfile to copy both minified files into distribution folder (in our example media/css).
 Now add these lines in head part of html page.
@@ -36,7 +36,7 @@ After that just run `grunt` ...
 
 ## Concept Overview
 
-![alt tag](./images/overview.jpg)
+![Concept Overview](./images/overview.jpg)
 
 ## thx
 
