@@ -11,7 +11,6 @@ header > aside {
   position: absolute;
   top: 0;
   bottom: 0;
-  overflow: hidden;
 }
 main {
   box-sizing: border-box;
@@ -164,6 +163,9 @@ main > aside > section.section-foot {
 .cs-1 a:active {
   color: #000000;
 }
+.cs-1 a:focus {
+  color: #000000;
+}
 .cs-1 section.section-head {
   background-color: #f7f7f7;
   border-bottom-color: #e8e8e8;
@@ -171,24 +173,6 @@ main > aside > section.section-foot {
 .cs-1 section.section-foot {
   background-color: #f7f7f7;
   border-top-color: #e8e8e8;
-}
-.cs-1 a {
-  color: #444444;
-}
-.cs-1 a:hover {
-  color: #222222;
-}
-.cs-1 a:active {
-  color: #000000;
-}
-.cs-1 a.heading {
-  color: #666666;
-}
-.cs-1 a.heading:hover {
-  color: #444444;
-}
-.cs-1 a.heading:active {
-  color: #222222;
 }
 .cs-1 .level-list > li > ul > li {
   border-bottom: 1px solid #f7f7f7;
@@ -425,6 +409,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 a:active {
   color: #ffffff;
 }
+.cs-2 a:focus {
+  color: #ffffff;
+}
 .cs-2 section.section-head {
   background-color: #3b3b3b;
   border-bottom-color: #4a4a4a;
@@ -432,24 +419,6 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 section.section-foot {
   background-color: #3b3b3b;
   border-top-color: #4a4a4a;
-}
-.cs-2 a {
-  color: #dddddd;
-}
-.cs-2 a:hover {
-  color: #eeeeee;
-}
-.cs-2 a:active {
-  color: #ffffff;
-}
-.cs-2 a.heading {
-  color: #999999;
-}
-.cs-2 a.heading:hover {
-  color: #bbbbbb;
-}
-.cs-2 a.heading:active {
-  color: #dddddd;
 }
 .cs-2 .level-list > li > ul > li {
   border-bottom: 1px solid #3b3b3b;
@@ -686,6 +655,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 a:active {
   color: #333333;
 }
+.cs-3 a:focus {
+  color: #333333;
+}
 .cs-3 section.section-head {
   background-color: #008433;
   border-bottom-color: #00742d;
@@ -693,24 +665,6 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 section.section-foot {
   background-color: #008433;
   border-top-color: #00742d;
-}
-.cs-3 a {
-  color: #ffffff;
-}
-.cs-3 a:hover {
-  color: #ffffff;
-}
-.cs-3 a:active {
-  color: #333333;
-}
-.cs-3 a.heading {
-  color: #bbbbbb;
-}
-.cs-3 a.heading:hover {
-  color: #dddddd;
-}
-.cs-3 a.heading:active {
-  color: #ffffff;
 }
 .cs-3 .level-list > li > ul > li {
   border-bottom: 1px solid #008433;
@@ -961,14 +915,57 @@ main aside.cs-3.col-right {
 header.cs-1 {
   border-bottom-color: #e8e8e8;
 }
+header.cs-1 a {
+  background-color: transparent;
+}
+header.cs-1 a:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+header.cs-1 a:active {
+  background-color: transparent;
+}
+header.cs-1 a:focus {
+  background-color: transparent;
+}
 header.cs-2 {
   border-bottom-color: #4a4a4a;
+}
+header.cs-2 a {
+  background-color: transparent;
+}
+header.cs-2 a:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+header.cs-2 a:active {
+  background-color: transparent;
+}
+header.cs-2 a:focus {
+  background-color: transparent;
 }
 header.cs-3 {
   border-bottom-color: #00742d;
 }
+header.cs-3 a {
+  background-color: transparent;
+}
+header.cs-3 a:hover {
+  background-color: #009d3d;
+  cursor: pointer;
+}
+header.cs-3 a:active {
+  background-color: #ffffff;
+}
+header.cs-3 a:focus {
+  background-color: #ffffff;
+}
 * {
   border: 0 solid transparent;
+}
+section > .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 a:hover {
   cursor: pointer;
@@ -981,4 +978,28 @@ a:focus {
 .btn-link:hover,
 .btn-link:focus {
   text-decoration: none;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
+}
+header {
+  font-size: 12px;
+  font-weight: 300;
+}
+header .navbar-nav > li {
+  text-align: center;
+}
+header .navbar-nav > li > a {
+  padding-top: 8px;
+  padding-bottom: 7px;
+  line-height: 1.1em;
+}
+header .navbar-nav > li > a > i {
+  font-size: 22px;
+  display: inline-block;
+}
+header .navbar-nav > li > a > span {
+  display: block;
 }

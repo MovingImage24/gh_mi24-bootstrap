@@ -55,6 +55,9 @@ header {
   @colorSet-link-color: '@{colorSetString}-link-color';
   @colorSet-link-hover-color: '@{colorSetString}-link-hover-color';
   @colorSet-link-active-color: '@{colorSetString}-link-active-color';
+  @colorSet-link-bg: '@{colorSetString}-link-bg';
+  @colorSet-link-hover-bg: '@{colorSetString}-link-hover-bg';
+  @colorSet-link-active-bg: '@{colorSetString}-link-active-bg';
   @colorSet-heading-link-color: '@{colorSetString}-heading-link-color';
   @colorSet-heading-link-hover-color: '@{colorSetString}-heading-link-hover-color';
   @colorSet-heading-link-active-color: '@{colorSetString}-heading-link-active-color';
@@ -68,7 +71,7 @@ header {
   .defineColorSetVars(@colorSetString);
   color: @@colorSet-color;
   background-color: @@colorSet-bg;
-  .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color);
+  .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color, @@colorSet-link-active-color);
 }
 
 .getColorSetAsides() {
@@ -112,12 +115,12 @@ header {
 
 .getColorSetLists(@colorSetString) {
   .defineColorSetVars(@colorSetString);
-  a {
-    .getLinkTagExcludeColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color);
-    &.heading {
-      .getLinkTagExcludeColors(@@colorSet-heading-link-color, @@colorSet-heading-link-hover-color, @@colorSet-heading-link-active-color);
-    }
-  }
+//  a {
+//    .getLinkTagExcludeColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color);
+//    &.heading {
+//      .getLinkTagExcludeColors(@@colorSet-heading-link-color, @@colorSet-heading-link-hover-color, @@colorSet-heading-link-active-color);
+//    }
+//  }
   .level-list {
     > li {
       > ul {
@@ -135,6 +138,7 @@ header {
 .getColorSetHeader(@colorSetString) {
   .defineColorSetVars(@colorSetString);
   border-bottom-color: @@colorSet-border-horizontal-color;
+  .getLinkBgColors(@@colorSet-link-bg, @@colorSet-link-hover-bg, @@colorSet-link-active-bg, @@colorSet-link-active-bg);
 }
 
 

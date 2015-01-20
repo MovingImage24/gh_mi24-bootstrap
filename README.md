@@ -15,7 +15,7 @@ This package include the latest version of twitter bootstrap ... currently versi
 
 via npm or bower ... [please more details]
 
-    "dasrick/mi24-bootstrap": "~0.0.3"
+    "dasrick/mi24-bootstrap": "~0.1.0"
 
 First append the gruntfile to copy both minified files into distribution folder (in our example media/css).
 Now add these lines in head part of html page.
@@ -39,6 +39,10 @@ After that just run `grunt` ...
 Here is a good gist that explain all nessessary step for tagging the builds (git/npm)
 
 * [Tagging](https://gist.github.com/coolaj86/1318304#beta-and-release-versions)
+
+The short version for bumping new version to `npm` looks like this ...
+
+    npm publish ./
 
 ## Concept Overview
 
