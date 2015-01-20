@@ -160,10 +160,10 @@ main > aside > section.section-foot {
 .cs-1 a:hover {
   color: #222222;
 }
-.cs-1 a:active {
+.cs-1 a:focus {
   color: #000000;
 }
-.cs-1 a:focus {
+.cs-1 a:active {
   color: #000000;
 }
 .cs-1 section.section-head {
@@ -181,7 +181,7 @@ main > aside > section.section-foot {
   border-top: 1px solid #f7f7f7;
 }
 .cs-1 .btn-mi24.btn-default {
-  color: #333333;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -217,7 +217,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-default.active {
   border-color: #cccccc;
 }
 .cs-1 .btn-mi24.btn-primary {
-  color: #333333;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -406,10 +406,10 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 a:hover {
   color: #eeeeee;
 }
-.cs-2 a:active {
+.cs-2 a:focus {
   color: #ffffff;
 }
-.cs-2 a:focus {
+.cs-2 a:active {
   color: #ffffff;
 }
 .cs-2 section.section-head {
@@ -427,7 +427,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
   border-top: 1px solid #3b3b3b;
 }
 .cs-2 .btn-mi24.btn-default {
-  color: #f5f5f5;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -463,7 +463,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-default.active {
   border-color: #cccccc;
 }
 .cs-2 .btn-mi24.btn-primary {
-  color: #f5f5f5;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -652,10 +652,10 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 a:hover {
   color: #ffffff;
 }
-.cs-3 a:active {
+.cs-3 a:focus {
   color: #333333;
 }
-.cs-3 a:focus {
+.cs-3 a:active {
   color: #333333;
 }
 .cs-3 section.section-head {
@@ -673,7 +673,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
   border-top: 1px solid #008433;
 }
 .cs-3 .btn-mi24.btn-default {
-  color: #ffffff;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -709,7 +709,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-default.active {
   border-color: #cccccc;
 }
 .cs-3 .btn-mi24.btn-primary {
-  color: #ffffff;
+  color: inherit;
   background-color: transparent;
   border-color: transparent;
 }
@@ -916,20 +916,44 @@ header.cs-1 {
   border-bottom-color: #e8e8e8;
 }
 header.cs-1 a {
+  color: #444444;
+}
+header.cs-1 a:hover {
+  color: #222222;
+}
+header.cs-1 a:focus {
+  color: #444444;
+}
+header.cs-1 a:active {
+  color: #000000;
+}
+header.cs-1 a {
   background-color: transparent;
 }
 header.cs-1 a:hover {
   background-color: transparent;
   cursor: pointer;
 }
-header.cs-1 a:active {
+header.cs-1 a:focus {
   background-color: transparent;
 }
-header.cs-1 a:focus {
+header.cs-1 a:active {
   background-color: transparent;
 }
 header.cs-2 {
   border-bottom-color: #4a4a4a;
+}
+header.cs-2 a {
+  color: #dddddd;
+}
+header.cs-2 a:hover {
+  color: #eeeeee;
+}
+header.cs-2 a:focus {
+  color: #dddddd;
+}
+header.cs-2 a:active {
+  color: #ffffff;
 }
 header.cs-2 a {
   background-color: transparent;
@@ -938,14 +962,26 @@ header.cs-2 a:hover {
   background-color: transparent;
   cursor: pointer;
 }
-header.cs-2 a:active {
+header.cs-2 a:focus {
   background-color: transparent;
 }
-header.cs-2 a:focus {
+header.cs-2 a:active {
   background-color: transparent;
 }
 header.cs-3 {
   border-bottom-color: #00742d;
+}
+header.cs-3 a {
+  color: #ffffff;
+}
+header.cs-3 a:hover {
+  color: #ffffff;
+}
+header.cs-3 a:focus {
+  color: #ffffff;
+}
+header.cs-3 a:active {
+  color: #333333;
 }
 header.cs-3 a {
   background-color: transparent;
@@ -954,10 +990,10 @@ header.cs-3 a:hover {
   background-color: #009d3d;
   cursor: pointer;
 }
-header.cs-3 a:active {
-  background-color: #ffffff;
-}
 header.cs-3 a:focus {
+  background-color: transparent;
+}
+header.cs-3 a:active {
   background-color: #ffffff;
 }
 * {
