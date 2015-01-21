@@ -1,0 +1,42 @@
+.level-list {
+  li {
+    a {
+      padding: 10px 15px;
+      display: block;
+      .badge,
+      .hint {
+        float: right;
+      }
+      .badge {
+        font-weight: 300;
+      }
+    }
+  }
+
+  > li {
+    > a {
+      font-size: 0.9em;
+      .title {
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .hint {
+        font-weight: 300;
+        color: transparent;
+      }
+      &:hover {
+        .hint {
+          color: inherit;
+        }
+      }
+    }
+    > ul {
+      > li {
+        > a {
+          font-weight: 300;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}

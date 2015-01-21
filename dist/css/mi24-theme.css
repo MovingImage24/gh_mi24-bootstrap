@@ -1023,6 +1023,35 @@ a:focus {
   border-radius: 0;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
 }
+.level-list li a {
+  padding: 10px 15px;
+  display: block;
+}
+.level-list li a .badge,
+.level-list li a .hint {
+  float: right;
+}
+.level-list li a .badge {
+  font-weight: 300;
+}
+.level-list > li > a {
+  font-size: 0.9em;
+}
+.level-list > li > a .title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.level-list > li > a .hint {
+  font-weight: 300;
+  color: transparent;
+}
+.level-list > li > a:hover .hint {
+  color: inherit;
+}
+.level-list > li > ul > li > a {
+  font-weight: 300;
+  font-size: 1.1em;
+}
 header {
   font-size: 12px;
   font-weight: 300;
