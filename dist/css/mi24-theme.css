@@ -1011,6 +1011,9 @@ a:focus {
   outline: none;
   outline-offset: 0;
 }
+.navbar-right {
+  margin-right: 0;
+}
 .btn-link:hover,
 .btn-link:focus {
   text-decoration: none;

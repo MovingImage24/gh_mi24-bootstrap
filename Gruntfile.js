@@ -11,7 +11,7 @@ module.exports = function (grunt) {
             }
         },
         less: {
-            compileCore: {
+            compileBootstrap: {
                 options: {
                     paths: ['less'],
                     strictMath: true,

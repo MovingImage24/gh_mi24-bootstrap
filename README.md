@@ -43,6 +43,13 @@ Here is a good gist that explain all nessessary step for tagging the builds (git
 The short version for bumping new version to `npm` looks like this ...
 
     npm publish ./
+    
+The short version for creating a `git tag` looks like this ...
+
+    git tag 0.1.4 master
+    
+npm used for versioning the version number from the package.json. bower use the tags from git repository.
+
 
 ## Concept Overview
 
