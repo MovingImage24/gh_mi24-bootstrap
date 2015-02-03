@@ -1,3 +1,14 @@
+v0.2.0:
+  date: 2014-12-28
+  changes:
+    - remove grunt as dependency
+    - implement jobs for less, minify and autoprefixer via npm
+    - change naming of css source map files
+    - remove grunt form travis
+    - bump version to 0.2.0 (package.json, bower.json)
+
+... to be filled
+
 v0.0.3:
   date: 2014-12-28
   changes:

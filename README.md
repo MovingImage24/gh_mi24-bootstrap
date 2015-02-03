@@ -30,9 +30,13 @@ Just start with installation of required dev tool.
 
     npm install
 
-After that just run `grunt` ...
+After that just run commands like ...
 
-    node_modules/.bin/grunt
+    npm run build
+    npm run build:css
+    npm run build:css-theme
+    
+    # a watcher job comming soon
     
 # Tagging
 
