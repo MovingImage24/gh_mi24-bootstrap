@@ -51,6 +51,7 @@ The short version for bumping new version to `npm` looks like this ...
 The short version for creating a `git tag` looks like this ...
 
     git tag 0.1.4 master
+    git push --tags
     
 npm used for versioning the version number from the package.json. bower use the tags from git repository.
 
