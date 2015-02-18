@@ -153,6 +153,8 @@ main > aside > section.section-foot {
 .cs-1 {
   color: #333333;
   background-color: #ffffff;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
 }
 .cs-1 a {
   color: #444444;
@@ -165,6 +167,18 @@ main > aside > section.section-foot {
 }
 .cs-1 a:active {
   color: #000000;
+}
+.cs-1 .nav .open > a,
+.cs-1 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-1 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-1 .dropdown-menu > li > a:hover {
+  color: #ffffff;
+  background-color: #0091ce;
 }
 .cs-1 section.section-head {
   background-color: #f7f7f7;
@@ -399,6 +413,8 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 {
   color: #f5f5f5;
   background-color: #333333;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
 }
 .cs-2 a {
   color: #dddddd;
@@ -411,6 +427,18 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 }
 .cs-2 a:active {
   color: #ffffff;
+}
+.cs-2 .nav .open > a,
+.cs-2 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-2 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-2 .dropdown-menu > li > a:hover {
+  color: #ffffff;
+  background-color: #0091ce;
 }
 .cs-2 section.section-head {
   background-color: #3b3b3b;
@@ -645,6 +673,8 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 {
   color: #ffffff;
   background-color: #009339;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
 }
 .cs-3 a {
   color: #ffffff;
@@ -657,6 +687,18 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 }
 .cs-3 a:active {
   color: #333333;
+}
+.cs-3 .nav .open > a,
+.cs-3 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-3 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-3 .dropdown-menu > li > a:hover {
+  color: #ffffff;
+  background-color: #0091ce;
 }
 .cs-3 section.section-head {
   background-color: #008433;

@@ -72,6 +72,20 @@ header {
   color: @@colorSet-color;
   background-color: @@colorSet-bg;
   .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color, @@colorSet-link-active-color);
+  /* START - overwrite some TB standards */
+  .nav .open>a,
+  .nav .open>a:hover {
+    color: @gray-dark;
+    background-color: @component-active-color;
+  }
+  .dropdown-menu>li>a {
+    color: @gray-dark;
+    &:hover {
+      color: @component-active-color;
+      background-color: @component-active-bg;
+    }
+  }
+  /* END - overwrite some TB standards */
 }
 
 .getColorSetAsides() {
