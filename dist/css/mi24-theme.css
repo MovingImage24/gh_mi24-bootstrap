@@ -54,6 +54,11 @@ main > aside > section.section-body {
 main > aside > section.section-foot {
   border-top-width: 1px;
 }
+header > aside.col-main-full,
+main > aside.col-main-full {
+  left: 0;
+  right: 0;
+}
 @media (min-width: 768px) {
   header > aside.col-left,
   main > aside.col-left {
