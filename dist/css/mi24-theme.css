@@ -209,6 +209,7 @@ main > aside.col-main-full {
   color: #ffffff;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-default:active,
 .cs-1 .btn-mi24.btn-default.active,
@@ -245,6 +246,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-default.active {
   color: #3776fa;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-primary:active,
 .cs-1 .btn-mi24.btn-primary.active,
@@ -281,6 +283,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-primary.active {
   color: #f0ad4e;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-warning:active,
 .cs-1 .btn-mi24.btn-warning.active,
@@ -317,6 +320,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-warning.active {
   color: #d9534f;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-danger:active,
 .cs-1 .btn-mi24.btn-danger.active,
@@ -353,6 +357,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-danger.active {
   color: #009339;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-success:active,
 .cs-1 .btn-mi24.btn-success.active,
@@ -389,6 +394,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-success.active {
   color: #5bc0de;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-1 .btn-mi24.btn-info:active,
 .cs-1 .btn-mi24.btn-info.active,
@@ -469,6 +475,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
   color: #ffffff;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-default:active,
 .cs-2 .btn-mi24.btn-default.active,
@@ -505,6 +512,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-default.active {
   color: #3776fa;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-primary:active,
 .cs-2 .btn-mi24.btn-primary.active,
@@ -541,6 +549,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-primary.active {
   color: #f0ad4e;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-warning:active,
 .cs-2 .btn-mi24.btn-warning.active,
@@ -577,6 +586,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-warning.active {
   color: #d9534f;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-danger:active,
 .cs-2 .btn-mi24.btn-danger.active,
@@ -613,6 +623,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-danger.active {
   color: #009339;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-success:active,
 .cs-2 .btn-mi24.btn-success.active,
@@ -649,6 +660,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-success.active {
   color: #5bc0de;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-2 .btn-mi24.btn-info:active,
 .cs-2 .btn-mi24.btn-info.active,
@@ -729,6 +741,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
   color: #ffffff;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-default:active,
 .cs-3 .btn-mi24.btn-default.active,
@@ -765,6 +778,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-default.active {
   color: #3776fa;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-primary:active,
 .cs-3 .btn-mi24.btn-primary.active,
@@ -801,6 +815,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-primary.active {
   color: #f0ad4e;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-warning:active,
 .cs-3 .btn-mi24.btn-warning.active,
@@ -837,6 +852,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-warning.active {
   color: #d9534f;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-danger:active,
 .cs-3 .btn-mi24.btn-danger.active,
@@ -873,6 +889,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-danger.active {
   color: #009339;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-success:active,
 .cs-3 .btn-mi24.btn-success.active,
@@ -909,6 +926,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-success.active {
   color: #5bc0de;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 .cs-3 .btn-mi24.btn-info:active,
 .cs-3 .btn-mi24.btn-info.active,
