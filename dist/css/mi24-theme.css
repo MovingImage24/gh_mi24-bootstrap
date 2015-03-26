@@ -181,9 +181,32 @@ main > aside.col-main-full {
 .cs-1 .dropdown-menu > li > a {
   color: #333333;
 }
-.cs-1 .dropdown-menu > li > a:hover {
+.cs-1 .dropdown-menu > li > a:hover,
+.cs-1 .dropdown-menu > li > a:focus {
+  text-decoration: none;
   color: #ffffff;
   background-color: #3776fa;
+}
+.cs-1 .dropdown-menu > .active > a,
+.cs-1 .dropdown-menu > .active > a:hover,
+.cs-1 .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #3776fa;
+}
+.cs-1 .dropdown-menu > .disabled > a,
+.cs-1 .dropdown-menu > .disabled > a:hover,
+.cs-1 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-1 .dropdown-menu > .disabled > a:hover,
+.cs-1 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
 }
 .cs-1 section.section-head {
   background-color: #f7f7f7;
@@ -447,9 +470,32 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 .dropdown-menu > li > a {
   color: #333333;
 }
-.cs-2 .dropdown-menu > li > a:hover {
+.cs-2 .dropdown-menu > li > a:hover,
+.cs-2 .dropdown-menu > li > a:focus {
+  text-decoration: none;
   color: #ffffff;
   background-color: #3776fa;
+}
+.cs-2 .dropdown-menu > .active > a,
+.cs-2 .dropdown-menu > .active > a:hover,
+.cs-2 .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #3776fa;
+}
+.cs-2 .dropdown-menu > .disabled > a,
+.cs-2 .dropdown-menu > .disabled > a:hover,
+.cs-2 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-2 .dropdown-menu > .disabled > a:hover,
+.cs-2 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
 }
 .cs-2 section.section-head {
   background-color: #3b3b3b;
@@ -713,9 +759,32 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 .dropdown-menu > li > a {
   color: #333333;
 }
-.cs-3 .dropdown-menu > li > a:hover {
+.cs-3 .dropdown-menu > li > a:hover,
+.cs-3 .dropdown-menu > li > a:focus {
+  text-decoration: none;
   color: #ffffff;
   background-color: #3776fa;
+}
+.cs-3 .dropdown-menu > .active > a,
+.cs-3 .dropdown-menu > .active > a:hover,
+.cs-3 .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #3776fa;
+}
+.cs-3 .dropdown-menu > .disabled > a,
+.cs-3 .dropdown-menu > .disabled > a:hover,
+.cs-3 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-3 .dropdown-menu > .disabled > a:hover,
+.cs-3 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
 }
 .cs-3 section.section-head {
   background-color: #008433;
@@ -1087,14 +1156,6 @@ a:focus {
   border: none;
   border-radius: 0;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
-}
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: #ffffff;
-  text-decoration: none;
-  outline: 0;
-  background-color: #9bbafc;
 }
 .level-list li .heading,
 .level-list li a {
