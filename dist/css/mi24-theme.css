@@ -1088,6 +1088,14 @@ a:focus {
   border-radius: 0;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
 }
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #9bbafc;
+}
 .level-list li .heading,
 .level-list li a {
   padding: 10px 15px;
