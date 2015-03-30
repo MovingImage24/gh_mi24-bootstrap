@@ -49,6 +49,7 @@ main > aside > section.section-head {
   border-bottom-width: 1px;
 }
 main > aside > section.section-body {
+  padding: 15px;
   overflow: auto;
 }
 main > aside > section.section-foot {
@@ -1133,10 +1134,6 @@ header.cs-3 a:active {
 * {
   border: 0 solid transparent;
 }
-section > .row {
-  margin-left: 0;
-  margin-right: 0;
-}
 a:hover {
   cursor: pointer;
   text-decoration: none;
@@ -1160,6 +1157,9 @@ a:focus {
 .dropdown-menu-right,
 .dropdown-menu.pull-right {
   left: auto;
+}
+.level-list {
+  margin: -15px;
 }
 .level-list li .heading,
 .level-list li a {
