@@ -92,10 +92,10 @@ header {
     &,
     &:hover,
     &:focus {
-      color: @dropdown-link-active-color;
+      color: @gray-dark;
       text-decoration: none;
       outline: 0;
-      background-color: @dropdown-link-active-bg;
+      background-color: lighten(@dropdown-link-active-bg, 20%);
     }
   }
 
@@ -114,6 +114,7 @@ header {
     &:hover,
     &:focus {
       text-decoration: none;
+//      background-color: @dropdown-link-hover-bg;
       background-color: transparent;
       background-image: none; // Remove CSS gradient
       filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));

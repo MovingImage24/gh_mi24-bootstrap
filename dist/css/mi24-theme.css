@@ -190,10 +190,10 @@ main > aside.col-main-full {
 .cs-1 .dropdown-menu > .active > a,
 .cs-1 .dropdown-menu > .active > a:hover,
 .cs-1 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
   outline: 0;
-  background-color: #3776fa;
+  background-color: #9bbafc;
 }
 .cs-1 .dropdown-menu > .disabled > a,
 .cs-1 .dropdown-menu > .disabled > a:hover,
@@ -479,10 +479,10 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 .dropdown-menu > .active > a,
 .cs-2 .dropdown-menu > .active > a:hover,
 .cs-2 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
   outline: 0;
-  background-color: #3776fa;
+  background-color: #9bbafc;
 }
 .cs-2 .dropdown-menu > .disabled > a,
 .cs-2 .dropdown-menu > .disabled > a:hover,
@@ -768,10 +768,10 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 .dropdown-menu > .active > a,
 .cs-3 .dropdown-menu > .active > a:hover,
 .cs-3 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
   outline: 0;
-  background-color: #3776fa;
+  background-color: #9bbafc;
 }
 .cs-3 .dropdown-menu > .disabled > a,
 .cs-3 .dropdown-menu > .disabled > a:hover,
@@ -1156,6 +1156,10 @@ a:focus {
   border: none;
   border-radius: 0;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
+}
+.dropdown-menu-right,
+.dropdown-menu.pull-right {
+  left: auto;
 }
 .level-list li .heading,
 .level-list li a {
