@@ -1,7 +1,7 @@
 {
   "name": "mi24-bootstrap",
   "description": "The basics for usage of twitter bootstrap in ui project of movingimage24.",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "homepage": "https://github.com/dasrick/mi24-bootstrap",
   "author": {
     "name": "MovingIMAGE24",
@@ -34,7 +34,6 @@
     "build:css": "npm run build:css-bootstrap && npm run build:css-theme",
     "build:css-bootstrap": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-bootstrap.less > dist/css/mi24-bootstrap.css && cleancss --source-map -o dist/css/mi24-bootstrap.min.css dist/css/mi24-bootstrap.css",
     "build:css-theme": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-theme.less > dist/css/mi24-theme.css && cleancss --source-map -o dist/css/mi24-theme.min.css dist/css/mi24-theme.css",
-
     "start": "node serve.js"
   }
 }
