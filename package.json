@@ -22,6 +22,7 @@
     "bootstrap": "^3.3.5",
     "clean-css": "^3.3.3",
     "david": "^6.1.6",
+    "express": "^4.12.4",
     "less": "^2.5.1",
     "less-plugin-autoprefix": "^1.4.2"
   },
@@ -32,6 +33,8 @@
     "build": "npm run build:css",
     "build:css": "npm run build:css-bootstrap && npm run build:css-theme",
     "build:css-bootstrap": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-bootstrap.less > dist/css/mi24-bootstrap.css && cleancss --source-map -o dist/css/mi24-bootstrap.min.css dist/css/mi24-bootstrap.css",
-    "build:css-theme": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-theme.less > dist/css/mi24-theme.css && cleancss --source-map -o dist/css/mi24-theme.min.css dist/css/mi24-theme.css"
+    "build:css-theme": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-theme.less > dist/css/mi24-theme.css && cleancss --source-map -o dist/css/mi24-theme.min.css dist/css/mi24-theme.css",
+
+    "start": "node serve.js"
   }
 }
