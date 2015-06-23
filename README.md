@@ -9,7 +9,7 @@
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
 
-This package include the latest version of twitter bootstrap ... currently version 3.3.1
+This package include the latest version of twitter bootstrap ... currently version 3.3.5
 
 ## Implementation
 
