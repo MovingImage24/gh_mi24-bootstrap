@@ -3,6 +3,7 @@
 [![Bower version](https://img.shields.io/bower/v/mi24-bootstrap.svg)](https://github.com/dasrick/mi24-bootstrap)
 [![npm version](https://img.shields.io/npm/v/mi24-bootstrap.svg)](https://www.npmjs.com/package/mi24-bootstrap)
 [![Build Status](https://img.shields.io/travis/dasrick/mi24-bootstrap.svg)](https://travis-ci.org/dasrick/mi24-bootstrap)
+[![dependency Status](https://david-dm.org/dasrick/mi24-bootstrap/status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=dependencies)
 [![devDependency Status](https://david-dm.org/dasrick/mi24-bootstrap/dev-status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=devDependencies)
 [![code quality Status](https://img.shields.io/codacy/f018037b3b5e4122b07a3221e5579e97.svg)](https://www.codacy.com/public/dasrick/mi24-bootstrap)
 
@@ -15,7 +16,7 @@ This package include the latest version of twitter bootstrap ... currently versi
 
 via npm or bower ... [please more details]
 
-    "dasrick/mi24-bootstrap": "~0.1.0"
+    "dasrick/mi24-bootstrap": "~0.2.0"
 
 First append the gruntfile to copy both minified files into distribution folder (in our example media/css).
 Now add these lines in head part of html page.
@@ -36,9 +37,16 @@ After that just run commands like ...
     npm run build:css
     npm run build:css-theme
     
-    # a watcher job comming soon
+    npm run watch
     
-# Tagging
+To start the express web server just do this ...
+
+    npm run start
+    
+... and open [http://localhost:3000](http://localhost:3000)
+
+
+## Tagging
 
 Here is a good gist that explain all nessessary step for tagging the builds (git/npm)
 

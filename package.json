@@ -18,17 +18,19 @@
     "type": "MIT",
     "url": "https://github.com/dasrick/mi24-bootstrap/blob/master/LICENSE"
   },
-  "devDependencies": {
-    "bootstrap": "^3.3.5",
-    "clean-css": "^3.3.3",
-    "david": "^6.1.6",
-    "express": "^4.12.4",
-    "less": "^2.5.1",
-    "less-plugin-autoprefix": "^1.4.2",
-    "watch": "^0.16.0"
-  },
   "engines": {
     "node": "0.12.*"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "clean-css": "^3.3.3",
+    "express": "^4.12.4",
+    "less": "^2.5.1",
+    "less-plugin-autoprefix": "^1.4.2"
+  },
+  "devDependencies": {
+    "david": "^6.1.6",
+    "watch": "^0.16.0"
   },
   "scripts": {
     "postinstall": "npm run build",
