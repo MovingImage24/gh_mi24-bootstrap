@@ -1,11 +1,13 @@
 # mi24-bootstrap
 
+[![GitHub version](https://badge.fury.io/gh/dasrick%2Fmi24-bootstrap.svg)](http://badge.fury.io/gh/dasrick%2Fmi24-bootstrap)
 [![Bower version](https://img.shields.io/bower/v/mi24-bootstrap.svg)](https://github.com/dasrick/mi24-bootstrap)
 [![npm version](https://img.shields.io/npm/v/mi24-bootstrap.svg)](https://www.npmjs.com/package/mi24-bootstrap)
 [![Build Status](https://img.shields.io/travis/dasrick/mi24-bootstrap.svg)](https://travis-ci.org/dasrick/mi24-bootstrap)
 [![dependency Status](https://david-dm.org/dasrick/mi24-bootstrap/status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=dependencies)
 [![devDependency Status](https://david-dm.org/dasrick/mi24-bootstrap/dev-status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=devDependencies)
 [![code quality Status](https://img.shields.io/codacy/f018037b3b5e4122b07a3221e5579e97.svg)](https://www.codacy.com/public/dasrick/mi24-bootstrap)
+[![Heroku Badge](http://img.shields.io/badge/deployed%20to-Heroku-7056bf.svg)](https://tox-mi24-ui.herokuapp.com)
 
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
