@@ -1,5 +1,13 @@
 language: node_js
+
 node_js:
   - "0.10"
+  - "0.12"
+
 before_script:
   - echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
+deploy:
+  provider: heroku
+  api_key: "4dacafd2-7064-4c78-b2fb-122b9a122a5a"
+  app: tox-mi24-ui

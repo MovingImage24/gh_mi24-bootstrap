@@ -1,0 +1,523 @@
+html,
+body {
+  height: 100%;
+}
+header {
+  position: relative;
+  height: 50px;
+  border-bottom-width: 1px;
+}
+header > aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+main {
+  box-sizing: border-box;
+  height: 100%;
+}
+main > aside {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  overflow: hidden;
+}
+main > aside section.section-head {
+  height: 35px;
+  top: 0;
+}
+main > aside section.section-body {
+  top: 35px;
+  bottom: 35px;
+}
+main > aside section.section-body:first-child {
+  top: 0;
+}
+main > aside section.section-body:last-child {
+  bottom: 0;
+}
+main > aside section.section-foot {
+  height: 35px;
+  bottom: 0;
+}
+main > aside > section {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+main > aside > section.section-head {
+  border-bottom-width: 1px;
+}
+main > aside > section.section-body {
+  padding: 15px;
+  overflow: auto;
+}
+main > aside > section.section-foot {
+  border-top-width: 1px;
+}
+header > aside.col-main-full,
+main > aside.col-main-full {
+  left: 0;
+  right: 0;
+}
+@media (min-width: 768px) {
+  header > aside.col-left,
+  main > aside.col-left {
+    width: 111px;
+    left: 0;
+  }
+  header > aside.col-main,
+  main > aside.col-main {
+    left: 111px;
+    right: 222px;
+  }
+  header > aside.col-right,
+  main > aside.col-right {
+    width: 222px;
+    right: 0;
+  }
+  header > aside.col-main-right,
+  main > aside.col-main-right {
+    left: 111px;
+    right: 0;
+  }
+  header > aside.col-main-left,
+  main > aside.col-main-left {
+    left: 0;
+    right: 222px;
+  }
+  header > aside.col-main-full,
+  main > aside.col-main-full {
+    left: 0;
+    right: 0;
+  }
+}
+@media (min-width: 992px) {
+  header > aside.col-left,
+  main > aside.col-left {
+    width: 222px;
+    left: 0;
+  }
+  header > aside.col-main,
+  main > aside.col-main {
+    left: 222px;
+    right: 333px;
+  }
+  header > aside.col-right,
+  main > aside.col-right {
+    width: 333px;
+    right: 0;
+  }
+  header > aside.col-main-right,
+  main > aside.col-main-right {
+    left: 222px;
+    right: 0;
+  }
+  header > aside.col-main-left,
+  main > aside.col-main-left {
+    left: 0;
+    right: 333px;
+  }
+  header > aside.col-main-full,
+  main > aside.col-main-full {
+    left: 0;
+    right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  header > aside.col-left,
+  main > aside.col-left {
+    width: 333px;
+    left: 0;
+  }
+  header > aside.col-main,
+  main > aside.col-main {
+    left: 333px;
+    right: 444px;
+  }
+  header > aside.col-right,
+  main > aside.col-right {
+    width: 444px;
+    right: 0;
+  }
+  header > aside.col-main-right,
+  main > aside.col-main-right {
+    left: 333px;
+    right: 0;
+  }
+  header > aside.col-main-left,
+  main > aside.col-main-left {
+    left: 0;
+    right: 444px;
+  }
+  header > aside.col-main-full,
+  main > aside.col-main-full {
+    left: 0;
+    right: 0;
+  }
+}
+.cs-1 {
+  color: #333333;
+  background-color: #f5f5f5;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
+}
+.cs-1 a {
+  color: #444444;
+}
+.cs-1 a:hover {
+  color: #222222;
+}
+.cs-1 a:focus {
+  color: #000000;
+}
+.cs-1 a:active {
+  color: #000000;
+}
+.cs-1 .nav .open > a,
+.cs-1 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-1 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-1 .dropdown-menu > li > a:hover,
+.cs-1 .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3776fa;
+}
+.cs-1 .dropdown-menu > .active > a,
+.cs-1 .dropdown-menu > .active > a:hover,
+.cs-1 .dropdown-menu > .active > a:focus {
+  color: #333333;
+  text-decoration: none;
+  outline: 0;
+  background-color: #9bbafc;
+}
+.cs-1 .dropdown-menu > .disabled > a,
+.cs-1 .dropdown-menu > .disabled > a:hover,
+.cs-1 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-1 .dropdown-menu > .disabled > a:hover,
+.cs-1 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.cs-1 section.section-head {
+  background-color: #ededed;
+  border-bottom-color: #dedede;
+}
+.cs-1 section.section-foot {
+  background-color: #ededed;
+  border-top-color: #dedede;
+}
+.cs-1 .level-list > li > ul > li {
+  border-bottom: 1px solid #ededed;
+}
+.cs-1 .level-list > li > ul > li:first-child {
+  border-top: 1px solid #ededed;
+}
+.cs-2 {
+  color: #f5f5f5;
+  background-color: #333333;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
+}
+.cs-2 a {
+  color: #dddddd;
+}
+.cs-2 a:hover {
+  color: #eeeeee;
+}
+.cs-2 a:focus {
+  color: #ffffff;
+}
+.cs-2 a:active {
+  color: #ffffff;
+}
+.cs-2 .nav .open > a,
+.cs-2 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-2 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-2 .dropdown-menu > li > a:hover,
+.cs-2 .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3776fa;
+}
+.cs-2 .dropdown-menu > .active > a,
+.cs-2 .dropdown-menu > .active > a:hover,
+.cs-2 .dropdown-menu > .active > a:focus {
+  color: #333333;
+  text-decoration: none;
+  outline: 0;
+  background-color: #9bbafc;
+}
+.cs-2 .dropdown-menu > .disabled > a,
+.cs-2 .dropdown-menu > .disabled > a:hover,
+.cs-2 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-2 .dropdown-menu > .disabled > a:hover,
+.cs-2 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.cs-2 section.section-head {
+  background-color: #3b3b3b;
+  border-bottom-color: #4a4a4a;
+}
+.cs-2 section.section-foot {
+  background-color: #3b3b3b;
+  border-top-color: #4a4a4a;
+}
+.cs-2 .level-list > li > ul > li {
+  border-bottom: 1px solid #3b3b3b;
+}
+.cs-2 .level-list > li > ul > li:first-child {
+  border-top: 1px solid #3b3b3b;
+}
+.cs-3 {
+  color: #ffffff;
+  background-color: #009339;
+  /* START - overwrite some TB standards */
+  /* END - overwrite some TB standards */
+}
+.cs-3 a {
+  color: #ffffff;
+}
+.cs-3 a:hover {
+  color: #ffffff;
+}
+.cs-3 a:focus {
+  color: #333333;
+}
+.cs-3 a:active {
+  color: #333333;
+}
+.cs-3 .nav .open > a,
+.cs-3 .nav .open > a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+.cs-3 .dropdown-menu > li > a {
+  color: #333333;
+}
+.cs-3 .dropdown-menu > li > a:hover,
+.cs-3 .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3776fa;
+}
+.cs-3 .dropdown-menu > .active > a,
+.cs-3 .dropdown-menu > .active > a:hover,
+.cs-3 .dropdown-menu > .active > a:focus {
+  color: #333333;
+  text-decoration: none;
+  outline: 0;
+  background-color: #9bbafc;
+}
+.cs-3 .dropdown-menu > .disabled > a,
+.cs-3 .dropdown-menu > .disabled > a:hover,
+.cs-3 .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.cs-3 .dropdown-menu > .disabled > a:hover,
+.cs-3 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.cs-3 section.section-head {
+  background-color: #008433;
+  border-bottom-color: #00742d;
+}
+.cs-3 section.section-foot {
+  background-color: #008433;
+  border-top-color: #00742d;
+}
+.cs-3 .level-list > li > ul > li {
+  border-bottom: 1px solid #008433;
+}
+.cs-3 .level-list > li > ul > li:first-child {
+  border-top: 1px solid #008433;
+}
+main.cs-1 aside.col-left,
+main aside.cs-1.col-left {
+  border-right: 2px solid #c7c7c7;
+}
+main.cs-1 aside.col-right,
+main aside.cs-1.col-right {
+  border-left: 0 solid #c7c7c7;
+}
+main.cs-2 aside.col-left,
+main aside.cs-2.col-left {
+  border-right: 2px solid #616161;
+}
+main.cs-2 aside.col-right,
+main aside.cs-2.col-right {
+  border-left: 0 solid #616161;
+}
+main.cs-3 aside.col-left,
+main aside.cs-3.col-left {
+  border-right: 2px solid #003715;
+}
+main.cs-3 aside.col-right,
+main aside.cs-3.col-right {
+  border-left: 0 solid #003715;
+}
+header.cs-1 {
+  border-bottom-color: #dedede;
+}
+header.cs-1 a {
+  color: #444444;
+}
+header.cs-1 a:hover {
+  color: #222222;
+}
+header.cs-1 a:focus {
+  color: #444444;
+}
+header.cs-1 a:active {
+  color: #000000;
+}
+header.cs-1 a {
+  background-color: transparent;
+}
+header.cs-1 a:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+header.cs-1 a:focus {
+  background-color: transparent;
+}
+header.cs-1 a:active {
+  background-color: transparent;
+}
+header.cs-2 {
+  border-bottom-color: #4a4a4a;
+}
+header.cs-2 a {
+  color: #dddddd;
+}
+header.cs-2 a:hover {
+  color: #eeeeee;
+}
+header.cs-2 a:focus {
+  color: #dddddd;
+}
+header.cs-2 a:active {
+  color: #ffffff;
+}
+header.cs-2 a {
+  background-color: transparent;
+}
+header.cs-2 a:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+header.cs-2 a:focus {
+  background-color: transparent;
+}
+header.cs-2 a:active {
+  background-color: transparent;
+}
+header.cs-3 {
+  border-bottom-color: #00742d;
+}
+header.cs-3 a {
+  color: #ffffff;
+}
+header.cs-3 a:hover {
+  color: #ffffff;
+}
+header.cs-3 a:focus {
+  color: #ffffff;
+}
+header.cs-3 a:active {
+  color: #333333;
+}
+header.cs-3 a {
+  background-color: transparent;
+}
+header.cs-3 a:hover {
+  background-color: #009d3d;
+  cursor: pointer;
+}
+header.cs-3 a:focus {
+  background-color: transparent;
+}
+header.cs-3 a:active {
+  background-color: #ffffff;
+}
+* {
+  border: 0 solid transparent;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  outline-offset: 0;
+}
+.navbar-right {
+  margin-right: 0;
+}
+.fa {
+  min-width: 1em;
+}
+.sidebar {
+  background-color: #fff;
+}
+.sidebar > section.section-body {
+  padding: 0;
+}
+.level-list li .heading,
+.level-list li .item {
+  padding: 10px 15px;
+  display: block;
+}
+.level-list li .heading .badge,
+.level-list li .item .badge,
+.level-list li .heading .control,
+.level-list li .item .control {
+  float: right;
+  text-align: right;
+}
+.level-list li .heading .badge,
+.level-list li .item .badge {
+  font-weight: 300;
+}
+.level-list li .item > .fa {
+  margin-right: .5em;
+}
+.level-list li a {
+  color: #878787;
+  background-color: #ffffff;
+}
+.level-list li a:hover {
+  color: #383838;
+  background-color: #ffffff;
+}
+.level-list li a.selected,
+.level-list li a.selected:hover {
+  color: #383838;
+  background-color: #f9f9f9;
+}

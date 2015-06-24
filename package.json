@@ -24,16 +24,24 @@
     "david": "^6.1.6",
     "express": "^4.12.4",
     "less": "^2.5.1",
-    "less-plugin-autoprefix": "^1.4.2"
+    "less-plugin-autoprefix": "^1.4.2",
+    "watch": "^0.16.0"
   },
   "engines": {
     "node": "0.12.*"
   },
   "scripts": {
+    "postinstall": "npm run build",
+
     "build": "npm run build:css",
-    "build:css": "npm run build:css-bootstrap && npm run build:css-theme",
+    "build:css": "npm run build:css-bootstrap && npm run build:css-theme && npm run build:css-ultron",
     "build:css-bootstrap": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-bootstrap.less > dist/css/mi24-bootstrap.css && cleancss --source-map -o dist/css/mi24-bootstrap.min.css dist/css/mi24-bootstrap.css",
     "build:css-theme": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-theme.less > dist/css/mi24-theme.css && cleancss --source-map -o dist/css/mi24-theme.min.css dist/css/mi24-theme.css",
-    "start": "node serve.js"
+    "build:css-ultron": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-ultron.less > dist/css/mi24-ultron.css && cleancss --source-map -o dist/css/mi24-ultron.min.css dist/css/mi24-ultron.css",
+
+    "start": "node serve.js",
+
+    "watch": "npm run watch:css",
+    "watch:css": "watch 'npm run build:css' less"
   }
 }

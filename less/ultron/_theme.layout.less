@@ -1,0 +1,128 @@
+// =====================================================================================================================
+// Layout
+// =====================================================================================================================
+// !!! Only define height and width ... otherwise you will notice that broken fingers let you hack a liitle bit slower
+// ---------------------------------------------------------------------------------------------------------------------
+html, body {
+  height: 100%;
+}
+
+header {
+  position: relative;
+  height: @header-height;
+  border-bottom-width: @header-border-bottom-width;
+  > aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+main {
+  box-sizing: border-box;
+  height: 100%;
+  > aside {
+    position: absolute;
+    top: @header-height;
+    bottom: @footer-height;
+    overflow: hidden;
+    .getSectionHeights(@section-head-height, @section-foot-height);
+    > section {
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      overflow: hidden;
+      &.section-head {
+        border-bottom-width: @section-head-border-bottom-width;
+      }
+      &.section-body {
+        padding: 15px;
+        overflow: auto;
+      }
+      &.section-foot {
+        border-top-width: @section-foot-border-top-width;
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// mixins
+// ---------------------------------------------------------------------------------------------------------------------
+.getAsideWidth(@col-left-width, @col-right-width) {
+  header,
+  main {
+    > aside {
+      &.col-left {
+        width: @col-left-width;
+        left: 0;
+      }
+      &.col-main {
+        left: @col-left-width;
+        right: @col-right-width;
+      }
+      &.col-right {
+        width: @col-right-width;
+        right: 0;
+      }
+      &.col-main-right {
+        left: @col-left-width;
+        right: 0;
+      }
+      &.col-main-left {
+        left: 0;
+        right: @col-right-width;
+      }
+      &.col-main-full {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+.getSectionHeights(@head-height, @foot-height) {
+  section.section-head {
+    height: @head-height;
+    top: 0;
+  }
+  section.section-body {
+    top: @head-height;
+    bottom: @foot-height;
+    &:first-child {
+      top: 0;
+    }
+    &:last-child {
+      bottom: 0;
+    }
+  }
+  section.section-foot {
+    height: @foot-height;
+    bottom: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// media queries
+// ---------------------------------------------------------------------------------------------------------------------
+header,
+main {
+  > aside {
+    &.col-main-full {
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .getAsideWidth(@col-left-sm-witdh, @col-right-sm-witdh);
+}
+
+@media (min-width: 992px) {
+  .getAsideWidth(@col-left-md-witdh, @col-right-md-witdh);
+}
+
+@media (min-width: 1200px) {
+  .getAsideWidth(@col-left-lg-witdh, @col-right-lg-witdh);
+}
