@@ -33,7 +33,6 @@
     "watch": "^0.16.0"
   },
   "scripts": {
-    "postinstall": "npm run build",
     "build": "npm run build:css",
     "build:css": "npm run build:css-bootstrap && npm run build:css-theme && npm run build:css-ultron",
     "build:css-bootstrap": "lessc --autoprefix='last 2 versions,ie 9' less/mi24-bootstrap.less > dist/css/mi24-bootstrap.css && cleancss --source-map -o dist/css/mi24-bootstrap.min.css dist/css/mi24-bootstrap.css",
