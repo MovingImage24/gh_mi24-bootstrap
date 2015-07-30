@@ -7,7 +7,7 @@
 [![dependency Status](https://david-dm.org/dasrick/mi24-bootstrap/status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=dependencies)
 [![devDependency Status](https://david-dm.org/dasrick/mi24-bootstrap/dev-status.svg)](https://david-dm.org/dasrick/mi24-bootstrap#info=devDependencies)
 [![code quality Status](https://img.shields.io/codacy/f018037b3b5e4122b07a3221e5579e97.svg)](https://www.codacy.com/public/dasrick/mi24-bootstrap)
-[![Heroku Badge](http://img.shields.io/badge/deployed%20to-Heroku-7056bf.svg)](https://tox-mi24-ui.herokuapp.com)
+[![Heroku Badge](http://img.shields.io/badge/deployed%20to-Heroku-7056bf.svg)](https://tox-mi24-bootstrap.herokuapp.com)
 
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
