@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
-    "clean-css": "^3.3.3",
-    "express": "^4.12.4",
+    "clean-css": "^3.3.7",
+    "express": "^4.13.3",
     "less": "^2.5.1",
     "less-plugin-autoprefix": "^1.4.2"
   },
