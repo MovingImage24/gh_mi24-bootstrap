@@ -22,14 +22,14 @@
     "node": "0.12.*"
   },
   "dependencies": {
-    "bootstrap": "^3.3.5",
-    "clean-css": "^3.3.7",
-    "express": "^4.13.3",
-    "less": "^2.5.1",
-    "less-plugin-autoprefix": "^1.4.2"
   },
   "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "clean-css": "^3.3.7",
     "david": "^6.1.6",
+    "express": "^4.13.3",
+    "less": "^2.5.1",
+    "less-plugin-autoprefix": "^1.4.2",
     "watch": "^0.16.0"
   },
   "scripts": {
