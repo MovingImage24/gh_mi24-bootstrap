@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Mi24 ultron - 2 col simple</title>
+    <title>Mi24 ultron - 3 col empty</title>
 
     <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
@@ -22,17 +22,18 @@
 </head>
 <body>
 
-<header class="cs-3">
-    <aside class="col-left brand">
+<header>
+    <aside class="sidebar cs-3 brand">
         <a class="navbar-brand" href="index.html">
             <span>Application Ultron</span>
         </a>
     </aside>
-    <aside class="col-main"></aside>
-    <aside class="col-right"></aside>
+    <aside class="content cs-3"></aside>
 </header>
-<main class="cs-1">
-    <aside class="col-left sidebar">
+
+<main>
+    <aside class="sidebar cs-2">
+        <!--
         <section class="section-body">
             <ul class="list-unstyled level-list">
                 <li>
@@ -64,12 +65,14 @@
                 </li>
             </ul>
         </section>
+        -->
+        aside-sidebar
     </aside>
-    <aside class="col-main-right">
-        <section class="section-body">section-body</section>
+    <aside class="content cs-1">
+        <div class="col-right"></div>
+        <div class="col-main">col-main</div>
     </aside>
 </main>
-
 
 </body>
 </html>

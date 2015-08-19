@@ -7,6 +7,16 @@ html, body {
   height: 100%;
 }
 
+header,
+main {
+  > aside {
+    &.sidebar {
+    }
+    &.content {
+    }
+  }
+}
+
 header {
   position: relative;
   height: @header-height;
@@ -15,6 +25,10 @@ header {
     position: absolute;
     top: 0;
     bottom: 0;
+    &.sidebar {
+    }
+    &.content {
+    }
   }
 }
 
@@ -26,103 +40,82 @@ main {
     top: @header-height;
     bottom: @footer-height;
     overflow: hidden;
-    //.getSectionHeights(@section-head-height, @section-foot-height);
-    > section {
-      margin: 0;
-      position: absolute;
-      width: 100%;
-      overflow: hidden;
-      //&.section-head {
-      //  border-bottom-width: @section-head-border-bottom-width;
-      //}
-      //&.section-body {
-      //  padding: 15px;
-      //  overflow: auto;
-      //}
-      //&.section-foot {
-      //  border-top-width: @section-foot-border-top-width;
-      //}
+    &.sidebar {
+    }
+    &.content {
     }
   }
 }
 
-// ---------------------------------------------------------------------------------------------------------------------
+.col-right,
+.col-main {
+  position: absolute;
+  padding-top: @basic-padding;
+  padding-bottom: @basic-padding;
+  padding-right: @basic-padding;
+  height: 100%;
+}
+
+.col-right {
+  right: 0;
+}
+
+.col-main {
+  left: 0;
+  padding-left: @basic-padding;
+}
+
+.col-right:empty + .col-main,
+.col-main:first-child {
+  right: 0;
+}
+
+// =====================================================================================================================
 // mixins
 // ---------------------------------------------------------------------------------------------------------------------
-.getAsideWidth(@col-left-width, @col-right-width) {
+.getAsideWidth(@sidebar-width) {
   header,
   main {
     > aside {
-      &.col-left {
-        width: @col-left-width;
+      &.sidebar {
+        width: @sidebar-width;
         left: 0;
       }
-      &.col-main {
-        left: @col-left-width;
-        right: @col-right-width;
-      }
-      &.col-right {
-        width: @col-right-width;
+      &.content {
+        left: @sidebar-width;
         right: 0;
-      }
-      &.col-main-right {
-        left: @col-left-width;
-        right: 0;
-      }
-      &.col-main-left {
-        left: 0;
-        right: @col-right-width;
-      }
-      &.col-main-full {
-        left: 0;
-        right: 0;
+        height: 100%;
+        &:first-child {
+          left: 0;
+        }
       }
     }
   }
 }
 
-//.getSectionHeights(@head-height, @foot-height) {
-//  section.section-head {
-//    height: @head-height;
-//    top: 0;
-//  }
-//  section.section-body {
-//    top: @head-height;
-//    bottom: @foot-height;
-//    &:first-child {
-//      top: 0;
-//    }
-//    &:last-child {
-//      bottom: 0;
-//    }
-//  }
-//  section.section-foot {
-//    height: @foot-height;
-//    bottom: 0;
-//  }
-//}
+.getColWidth(@col-right-width) {
+  .col-main {
+    right: @col-right-width;
+  }
+  .col-right {
+    width: @col-right-width;
+  }
+}
 
-// ---------------------------------------------------------------------------------------------------------------------
+// =====================================================================================================================
 // media queries
 // ---------------------------------------------------------------------------------------------------------------------
-header,
-main {
-  > aside {
-    &.col-main-full {
-      left: 0;
-      right: 0;
-    }
-  }
-}
-
 @media (min-width: 768px) {
-  .getAsideWidth(@col-left-sm-witdh, @col-right-sm-witdh);
+  .getAsideWidth(@sidebar-sm-width);
+  .getColWidth(@col-right-sm-width);
 }
 
 @media (min-width: 992px) {
-  .getAsideWidth(@col-left-md-witdh, @col-right-md-witdh);
+  .getAsideWidth(@sidebar-md-width);
+  .getColWidth(@col-right-md-width);
 }
 
 @media (min-width: 1200px) {
-  .getAsideWidth(@col-left-lg-witdh, @col-right-lg-witdh);
+  .getAsideWidth(@sidebar-lg-width);
+  .getColWidth(@col-right-lg-width);
 }
