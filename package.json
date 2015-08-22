@@ -1,7 +1,7 @@
 {
   "name": "mi24-bootstrap",
   "description": "The basics for usage of twitter bootstrap in ui project of movingimage24.",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "homepage": "https://github.com/dasrick/mi24-bootstrap",
   "author": {
     "name": "MovingIMAGE24",
@@ -21,8 +21,7 @@
   "engines": {
     "node": "0.12.*"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "bootstrap": "^3.3.5",
     "clean-css": "^3.3.7",
