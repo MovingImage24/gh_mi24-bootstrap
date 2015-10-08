@@ -257,8 +257,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-default:active,
 .cs-1 .btn-mi24.btn-default.disabled.active,
 .cs-1 .btn-mi24.btn-default[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-1 .btn-mi24.btn-primary {
   color: inherit;
@@ -294,8 +295,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-primary:active,
 .cs-1 .btn-mi24.btn-primary.disabled.active,
 .cs-1 .btn-mi24.btn-primary[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-primary.active {
-  background-color: #3776fa;
-  border-color: #1e65f9;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-1 .btn-mi24.btn-warning {
   color: #333333;
@@ -331,8 +333,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-warning:active,
 .cs-1 .btn-mi24.btn-warning.disabled.active,
 .cs-1 .btn-mi24.btn-warning[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  color: #333333;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-1 .btn-mi24.btn-danger {
   color: #333333;
@@ -368,8 +371,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-danger:active,
 .cs-1 .btn-mi24.btn-danger.disabled.active,
 .cs-1 .btn-mi24.btn-danger[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  color: #333333;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-1 .btn-mi24.btn-success {
   color: #333333;
@@ -405,8 +409,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-success:active,
 .cs-1 .btn-mi24.btn-success.disabled.active,
 .cs-1 .btn-mi24.btn-success[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-success.active {
-  background-color: #009339;
-  border-color: #007a2f;
+  color: #333333;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-1 .btn-mi24.btn-info {
   color: #333333;
@@ -442,8 +447,9 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info:active,
 .cs-1 .btn-mi24.btn-info.disabled.active,
 .cs-1 .btn-mi24.btn-info[disabled].active,
 fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  color: #333333;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 {
   color: #f5f5f5;
@@ -546,8 +552,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-default:active,
 .cs-2 .btn-mi24.btn-default.disabled.active,
 .cs-2 .btn-mi24.btn-default[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 .btn-mi24.btn-primary {
   color: inherit;
@@ -583,8 +590,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-primary:active,
 .cs-2 .btn-mi24.btn-primary.disabled.active,
 .cs-2 .btn-mi24.btn-primary[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-primary.active {
-  background-color: #3776fa;
-  border-color: #1e65f9;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 .btn-mi24.btn-warning {
   color: #f5f5f5;
@@ -620,8 +628,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-warning:active,
 .cs-2 .btn-mi24.btn-warning.disabled.active,
 .cs-2 .btn-mi24.btn-warning[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  color: #f5f5f5;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 .btn-mi24.btn-danger {
   color: #f5f5f5;
@@ -657,8 +666,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-danger:active,
 .cs-2 .btn-mi24.btn-danger.disabled.active,
 .cs-2 .btn-mi24.btn-danger[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  color: #f5f5f5;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 .btn-mi24.btn-success {
   color: #f5f5f5;
@@ -694,8 +704,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-success:active,
 .cs-2 .btn-mi24.btn-success.disabled.active,
 .cs-2 .btn-mi24.btn-success[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-success.active {
-  background-color: #009339;
-  border-color: #007a2f;
+  color: #f5f5f5;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-2 .btn-mi24.btn-info {
   color: #f5f5f5;
@@ -731,8 +742,9 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info:active,
 .cs-2 .btn-mi24.btn-info.disabled.active,
 .cs-2 .btn-mi24.btn-info[disabled].active,
 fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  color: #f5f5f5;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 {
   color: #ffffff;
@@ -835,8 +847,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-default:active,
 .cs-3 .btn-mi24.btn-default.disabled.active,
 .cs-3 .btn-mi24.btn-default[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 .btn-mi24.btn-primary {
   color: inherit;
@@ -872,8 +885,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-primary:active,
 .cs-3 .btn-mi24.btn-primary.disabled.active,
 .cs-3 .btn-mi24.btn-primary[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-primary.active {
-  background-color: #3776fa;
-  border-color: #1e65f9;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 .btn-mi24.btn-warning {
   color: #ffffff;
@@ -909,8 +923,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-warning:active,
 .cs-3 .btn-mi24.btn-warning.disabled.active,
 .cs-3 .btn-mi24.btn-warning[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 .btn-mi24.btn-danger {
   color: #ffffff;
@@ -946,8 +961,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-danger:active,
 .cs-3 .btn-mi24.btn-danger.disabled.active,
 .cs-3 .btn-mi24.btn-danger[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 .btn-mi24.btn-success {
   color: #ffffff;
@@ -983,8 +999,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-success:active,
 .cs-3 .btn-mi24.btn-success.disabled.active,
 .cs-3 .btn-mi24.btn-success[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-success.active {
-  background-color: #009339;
-  border-color: #007a2f;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
 }
 .cs-3 .btn-mi24.btn-info {
   color: #ffffff;
@@ -1020,8 +1037,9 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-info:active,
 .cs-3 .btn-mi24.btn-info.disabled.active,
 .cs-3 .btn-mi24.btn-info[disabled].active,
 fieldset[disabled] .cs-3 .btn-mi24.btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
 }
 main.cs-1 aside.col-left,
 main aside.cs-1.col-left {

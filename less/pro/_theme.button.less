@@ -1,22 +1,3 @@
-//.btn-mi24.btn-default {
-//  .button-variant-mi24(@btn-default-color; @btn-default-bg; @btn-default-border; @cs1-color);
-//}
-//.btn-mi24.btn-primary {
-//  .button-variant-mi24(@btn-primary-color; @btn-primary-bg; @btn-primary-border; @cs1-color);
-//}
-//.btn-mi24.btn-warning {
-//  .button-variant-mi24(@btn-warning-color; @btn-warning-bg; @btn-warning-border; @cs1-color);
-//}
-//.btn-mi24.btn-danger {
-//  .button-variant-mi24(@btn-danger-color; @btn-danger-bg; @btn-danger-border; @cs1-color);
-//}
-//.btn-mi24.btn-success {
-//  .button-variant-mi24(@btn-success-color; @btn-success-bg; @btn-success-border; @cs1-color);
-//}
-//.btn-mi24.btn-info {
-//  .button-variant-mi24(@btn-info-color; @btn-info-bg; @btn-info-border; @cs1-color);
-//}
-
 
 .button-variant-mi24(@color; @background; @border; @default-color) {
   color: @default-color;
@@ -44,8 +25,9 @@
     &:focus,
     &:active,
     &.active {
-      background-color: @background;  // not ready
-      border-color: @border;  // not ready
+      color: @default-color;  // not ready
+      background-color: transparent;  // not ready
+      border-color: transparent;  // not ready
     }
   }
 }
