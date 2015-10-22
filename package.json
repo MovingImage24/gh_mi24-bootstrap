@@ -19,7 +19,7 @@
     "url": "https://github.com/dasrick/mi24-bootstrap/blob/master/LICENSE"
   },
   "engines": {
-    "node": "0.10.*"
+    "node": ">=0.10.*"
   },
   "dependencies": {},
   "devDependencies": {
