@@ -158,26 +158,26 @@ main > aside.col-main-full {
 }
 .cs-1 {
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fff;
   /* START - overwrite some TB standards */
   /* END - overwrite some TB standards */
 }
 .cs-1 a {
-  color: #444444;
+  color: #444;
 }
 .cs-1 a:hover {
-  color: #222222;
+  color: #222;
 }
 .cs-1 a:focus {
-  color: #000000;
+  color: #000;
 }
 .cs-1 a:active {
-  color: #000000;
+  color: #000;
 }
 .cs-1 .nav .open > a,
 .cs-1 .nav .open > a:hover {
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .cs-1 .dropdown-menu > li > a {
   color: #333333;
@@ -185,7 +185,7 @@ main > aside.col-main-full {
 .cs-1 .dropdown-menu > li > a:hover,
 .cs-1 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   background-color: #3776fa;
 }
 .cs-1 .dropdown-menu > .active > a,
@@ -230,7 +230,7 @@ main > aside.col-main-full {
 }
 .cs-1 .btn-mi24.btn-default:hover,
 .cs-1 .btn-mi24.btn-default:focus {
-  color: #ffffff;
+  color: #fff;
   background-color: transparent;
   border-color: transparent;
   outline: none;
@@ -238,7 +238,7 @@ main > aside.col-main-full {
 .cs-1 .btn-mi24.btn-default:active,
 .cs-1 .btn-mi24.btn-default.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-default {
-  color: #333333;
+  color: #333;
   background-color: #ebebeb;
   border-color: transparent;
 }
@@ -276,7 +276,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-default.active {
 .cs-1 .btn-mi24.btn-primary:active,
 .cs-1 .btn-mi24.btn-primary.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #0f5bf9;
   border-color: transparent;
 }
@@ -314,7 +314,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-primary.active {
 .cs-1 .btn-mi24.btn-warning:active,
 .cs-1 .btn-mi24.btn-warning.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-warning {
-  color: #ffffff;
+  color: #fff;
   background-color: #ed9c28;
   border-color: transparent;
 }
@@ -352,7 +352,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-warning.active {
 .cs-1 .btn-mi24.btn-danger:active,
 .cs-1 .btn-mi24.btn-danger.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-danger {
-  color: #ffffff;
+  color: #fff;
   background-color: #d2322d;
   border-color: transparent;
 }
@@ -390,7 +390,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-danger.active {
 .cs-1 .btn-mi24.btn-success:active,
 .cs-1 .btn-mi24.btn-success.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-success {
-  color: #ffffff;
+  color: #fff;
   background-color: #006a29;
   border-color: transparent;
 }
@@ -428,7 +428,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-success.active {
 .cs-1 .btn-mi24.btn-info:active,
 .cs-1 .btn-mi24.btn-info.active,
 .open .dropdown-toggle .cs-1 .btn-mi24.btn-info {
-  color: #ffffff;
+  color: #fff;
   background-color: #39b3d7;
   border-color: transparent;
 }
@@ -458,21 +458,21 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
   /* END - overwrite some TB standards */
 }
 .cs-2 a {
-  color: #dddddd;
+  color: #ddd;
 }
 .cs-2 a:hover {
-  color: #eeeeee;
+  color: #eee;
 }
 .cs-2 a:focus {
-  color: #ffffff;
+  color: #fff;
 }
 .cs-2 a:active {
-  color: #ffffff;
+  color: #fff;
 }
 .cs-2 .nav .open > a,
 .cs-2 .nav .open > a:hover {
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .cs-2 .dropdown-menu > li > a {
   color: #333333;
@@ -480,7 +480,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 .dropdown-menu > li > a:hover,
 .cs-2 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   background-color: #3776fa;
 }
 .cs-2 .dropdown-menu > .active > a,
@@ -525,7 +525,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 }
 .cs-2 .btn-mi24.btn-default:hover,
 .cs-2 .btn-mi24.btn-default:focus {
-  color: #ffffff;
+  color: #fff;
   background-color: transparent;
   border-color: transparent;
   outline: none;
@@ -533,7 +533,7 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 .btn-mi24.btn-default:active,
 .cs-2 .btn-mi24.btn-default.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-default {
-  color: #333333;
+  color: #333;
   background-color: #ebebeb;
   border-color: transparent;
 }
@@ -571,7 +571,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-default.active {
 .cs-2 .btn-mi24.btn-primary:active,
 .cs-2 .btn-mi24.btn-primary.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #0f5bf9;
   border-color: transparent;
 }
@@ -609,7 +609,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-primary.active {
 .cs-2 .btn-mi24.btn-warning:active,
 .cs-2 .btn-mi24.btn-warning.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-warning {
-  color: #ffffff;
+  color: #fff;
   background-color: #ed9c28;
   border-color: transparent;
 }
@@ -647,7 +647,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-warning.active {
 .cs-2 .btn-mi24.btn-danger:active,
 .cs-2 .btn-mi24.btn-danger.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-danger {
-  color: #ffffff;
+  color: #fff;
   background-color: #d2322d;
   border-color: transparent;
 }
@@ -685,7 +685,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-danger.active {
 .cs-2 .btn-mi24.btn-success:active,
 .cs-2 .btn-mi24.btn-success.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-success {
-  color: #ffffff;
+  color: #fff;
   background-color: #006a29;
   border-color: transparent;
 }
@@ -723,7 +723,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-success.active {
 .cs-2 .btn-mi24.btn-info:active,
 .cs-2 .btn-mi24.btn-info.active,
 .open .dropdown-toggle .cs-2 .btn-mi24.btn-info {
-  color: #ffffff;
+  color: #fff;
   background-color: #39b3d7;
   border-color: transparent;
 }
@@ -767,7 +767,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 .nav .open > a,
 .cs-3 .nav .open > a:hover {
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .cs-3 .dropdown-menu > li > a {
   color: #333333;
@@ -775,7 +775,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 .dropdown-menu > li > a:hover,
 .cs-3 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   background-color: #3776fa;
 }
 .cs-3 .dropdown-menu > .active > a,
@@ -820,7 +820,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 }
 .cs-3 .btn-mi24.btn-default:hover,
 .cs-3 .btn-mi24.btn-default:focus {
-  color: #ffffff;
+  color: #fff;
   background-color: transparent;
   border-color: transparent;
   outline: none;
@@ -828,7 +828,7 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 .btn-mi24.btn-default:active,
 .cs-3 .btn-mi24.btn-default.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-default {
-  color: #333333;
+  color: #333;
   background-color: #ebebeb;
   border-color: transparent;
 }
@@ -866,7 +866,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-default.active {
 .cs-3 .btn-mi24.btn-primary:active,
 .cs-3 .btn-mi24.btn-primary.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #0f5bf9;
   border-color: transparent;
 }
@@ -904,7 +904,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-primary.active {
 .cs-3 .btn-mi24.btn-warning:active,
 .cs-3 .btn-mi24.btn-warning.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-warning {
-  color: #ffffff;
+  color: #fff;
   background-color: #ed9c28;
   border-color: transparent;
 }
@@ -942,7 +942,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-warning.active {
 .cs-3 .btn-mi24.btn-danger:active,
 .cs-3 .btn-mi24.btn-danger.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-danger {
-  color: #ffffff;
+  color: #fff;
   background-color: #d2322d;
   border-color: transparent;
 }
@@ -980,7 +980,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-danger.active {
 .cs-3 .btn-mi24.btn-success:active,
 .cs-3 .btn-mi24.btn-success.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-success {
-  color: #ffffff;
+  color: #fff;
   background-color: #006a29;
   border-color: transparent;
 }
@@ -1018,7 +1018,7 @@ fieldset[disabled] .cs-3 .btn-mi24.btn-success.active {
 .cs-3 .btn-mi24.btn-info:active,
 .cs-3 .btn-mi24.btn-info.active,
 .open .dropdown-toggle .cs-3 .btn-mi24.btn-info {
-  color: #ffffff;
+  color: #fff;
   background-color: #39b3d7;
   border-color: transparent;
 }
@@ -1069,16 +1069,16 @@ header.cs-1 {
   border-bottom-color: #e8e8e8;
 }
 header.cs-1 a {
-  color: #444444;
+  color: #444;
 }
 header.cs-1 a:hover {
-  color: #222222;
+  color: #222;
 }
 header.cs-1 a:focus {
-  color: #444444;
+  color: #444;
 }
 header.cs-1 a:active {
-  color: #000000;
+  color: #000;
 }
 header.cs-1 a {
   background-color: transparent;
@@ -1097,16 +1097,16 @@ header.cs-2 {
   border-bottom-color: #4a4a4a;
 }
 header.cs-2 a {
-  color: #dddddd;
+  color: #ddd;
 }
 header.cs-2 a:hover {
-  color: #eeeeee;
+  color: #eee;
 }
 header.cs-2 a:focus {
-  color: #dddddd;
+  color: #ddd;
 }
 header.cs-2 a:active {
-  color: #ffffff;
+  color: #fff;
 }
 header.cs-2 a {
   background-color: transparent;

@@ -12,13 +12,13 @@
 
 The basics for usage of twitter bootstrap in ui project of movingimage24.
 
-This package include the latest version of twitter bootstrap ... currently version 3.3.5
+This package include the latest version of twitter bootstrap ... currently version 3.3.6
 
 ## Implementation
 
 via npm or bower ... [please more details]
 
-    "dasrick/mi24-bootstrap": "~0.2.0"
+    "dasrick/mi24-bootstrap": "~0.3.0"
 
 First append the gruntfile to copy both minified files into distribution folder (in our example media/css).
 Now add these lines in head part of html page.

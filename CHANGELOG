@@ -1,3 +1,9 @@
+v0.3.9:
+  date: 2016-02-15
+  changes:
+    - update all dependencies
+    - update custom bootstrap variables file because of changes in bootstrap 3.3.6
+
 v0.2.0:
   date: 2014-12-28
   changes:

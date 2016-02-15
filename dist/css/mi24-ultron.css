@@ -117,16 +117,16 @@ main > aside {
   /* END - overwrite some TB standards */
 }
 .cs-1 a {
-  color: #444444;
+  color: #444;
 }
 .cs-1 a:hover {
-  color: #222222;
+  color: #222;
 }
 .cs-1 a:focus {
-  color: #000000;
+  color: #000;
 }
 .cs-1 a:active {
-  color: #000000;
+  color: #000;
 }
 .cs-2 {
   color: #333333;
@@ -135,16 +135,16 @@ main > aside {
   /* END - overwrite some TB standards */
 }
 .cs-2 a {
-  color: #dddddd;
+  color: #ddd;
 }
 .cs-2 a:hover {
-  color: #eeeeee;
+  color: #eee;
 }
 .cs-2 a:focus {
-  color: #ffffff;
+  color: #fff;
 }
 .cs-2 a:active {
-  color: #ffffff;
+  color: #fff;
 }
 .cs-3 {
   color: #ffffff;
@@ -167,7 +167,7 @@ main > aside {
 .sidebar {
   border-width: 0 3px 0 0;
   border-style: solid;
-  border-image: linear-gradient(to right, #cccccc, rgba(255, 255, 255, 0)) 1 100%;
+  border-image: linear-gradient(to right, #ccc, rgba(255, 255, 255, 0)) 1 100%;
 }
 header .sidebar {
   border-image: none;
