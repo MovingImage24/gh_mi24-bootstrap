@@ -71,7 +71,7 @@ header {
   .defineColorSetVars(@colorSetString);
   color: @@colorSet-color;
   background-color: @@colorSet-bg;
-  .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color, @@colorSet-link-active-color);
+  //.getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color, @@colorSet-link-active-color);
   /* START - overwrite some TB standards */
   .nav .open>a,
   .nav .open>a:hover {
@@ -172,6 +172,7 @@ header {
 //    }
 //  }
   .level-list {
+    .getLinkColors(@@colorSet-link-color, @@colorSet-link-hover-color, @@colorSet-link-active-color, @@colorSet-link-active-color);
     > li {
       > ul {
         > li {

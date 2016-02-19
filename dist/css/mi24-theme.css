@@ -162,18 +162,6 @@ main > aside.col-main-full {
   /* START - overwrite some TB standards */
   /* END - overwrite some TB standards */
 }
-.cs-1 a {
-  color: #444;
-}
-.cs-1 a:hover {
-  color: #222;
-}
-.cs-1 a:focus {
-  color: #000;
-}
-.cs-1 a:active {
-  color: #000;
-}
 .cs-1 .nav .open > a,
 .cs-1 .nav .open > a:hover {
   color: #333333;
@@ -216,6 +204,18 @@ main > aside.col-main-full {
 .cs-1 section.section-foot {
   background-color: #f7f7f7;
   border-top-color: #e8e8e8;
+}
+.cs-1 .level-list a {
+  color: #444;
+}
+.cs-1 .level-list a:hover {
+  color: #222;
+}
+.cs-1 .level-list a:focus {
+  color: #000;
+}
+.cs-1 .level-list a:active {
+  color: #000;
 }
 .cs-1 .level-list > li > ul > li {
   border-bottom: 1px solid #f7f7f7;
@@ -457,18 +457,6 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
   /* START - overwrite some TB standards */
   /* END - overwrite some TB standards */
 }
-.cs-2 a {
-  color: #ddd;
-}
-.cs-2 a:hover {
-  color: #eee;
-}
-.cs-2 a:focus {
-  color: #fff;
-}
-.cs-2 a:active {
-  color: #fff;
-}
 .cs-2 .nav .open > a,
 .cs-2 .nav .open > a:hover {
   color: #333333;
@@ -511,6 +499,18 @@ fieldset[disabled] .cs-1 .btn-mi24.btn-info.active {
 .cs-2 section.section-foot {
   background-color: #3b3b3b;
   border-top-color: #4a4a4a;
+}
+.cs-2 .level-list a {
+  color: #ddd;
+}
+.cs-2 .level-list a:hover {
+  color: #eee;
+}
+.cs-2 .level-list a:focus {
+  color: #fff;
+}
+.cs-2 .level-list a:active {
+  color: #fff;
 }
 .cs-2 .level-list > li > ul > li {
   border-bottom: 1px solid #3b3b3b;
@@ -752,18 +752,6 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
   /* START - overwrite some TB standards */
   /* END - overwrite some TB standards */
 }
-.cs-3 a {
-  color: #ffffff;
-}
-.cs-3 a:hover {
-  color: #ffffff;
-}
-.cs-3 a:focus {
-  color: #333333;
-}
-.cs-3 a:active {
-  color: #333333;
-}
 .cs-3 .nav .open > a,
 .cs-3 .nav .open > a:hover {
   color: #333333;
@@ -806,6 +794,18 @@ fieldset[disabled] .cs-2 .btn-mi24.btn-info.active {
 .cs-3 section.section-foot {
   background-color: #008433;
   border-top-color: #00742d;
+}
+.cs-3 .level-list a {
+  color: #ffffff;
+}
+.cs-3 .level-list a:hover {
+  color: #ffffff;
+}
+.cs-3 .level-list a:focus {
+  color: #333333;
+}
+.cs-3 .level-list a:active {
+  color: #333333;
 }
 .cs-3 .level-list > li > ul > li {
   border-bottom: 1px solid #008433;
