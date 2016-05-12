@@ -14,10 +14,7 @@
   "bugs": {
     "url": "https://github.com/dasrick/mi24-bootstrap/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/dasrick/mi24-bootstrap/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "engines": {
     "node": ">=0.10.*"
   },
@@ -29,7 +26,7 @@
     "express": "^4.13.4",
     "less": "^2.6.0",
     "less-plugin-autoprefix": "^1.5.1",
-    "watch": "^0.17.1"
+    "watch": "^0.18.0"
   },
   "scripts": {
     "build": "npm run build:css",
