@@ -1,3 +1,7 @@
+### This repository is deprecated!
+
+### The relevant repository can be found here [mi24-bootstrap](https://github.com/movingimage-evp/mi24-bootstrap)
+
 # mi24-bootstrap
 
 [![GitHub version](https://badge.fury.io/gh/dasrick%2Fmi24-bootstrap.svg)](http://badge.fury.io/gh/dasrick%2Fmi24-bootstrap)
